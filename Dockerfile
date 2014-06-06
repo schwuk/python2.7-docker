@@ -1,4 +1,4 @@
-FROM schwuk/ubuntu-core:trusty
+FROM ubuntu:trusty
 MAINTAINER David Murphy <dave@schwuk.com>
 
 RUN echo "deb http://archive.ubuntu.com/ubuntu/ trusty main restricted universe" > /etc/apt/sources.list && \
